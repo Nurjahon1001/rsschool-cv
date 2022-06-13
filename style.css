@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 * {
   color: rgb(222, 222, 222);
   font-family: 'Roboto', sans-serif;
@@ -29,6 +29,18 @@ nav {
   --pink: #E12079;
 }
 
+.t-pink{
+  color: #df046a;
+}
+
+.t-green{
+  color: #7CB16C;
+}
+
+.t-yellow{
+  color: #E4CD65;
+}
+
 nav ul li {
   display: inline-block;
   margin-left: 15px;
@@ -36,7 +48,12 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
+}
 
+.nav_img{
+  width: 10%;
+  border: 5px solid var(--pink);
+  border-radius: 50%;
 }
 
 .header_text {
@@ -72,6 +89,11 @@ header h1 {
   border: none;
 }
 
+.email_btn a,
+.header_buttons button:last-child a{
+  text-decoration: none;
+}
+
 .header_description {
   line-height: 25px;
   letter-spacing: 1px;
@@ -103,7 +125,7 @@ main {
 .project_example {
   max-width: 80%;
   height: 500px;
-  margin: 80px 80px;
+  margin: 80px 120px;
   border-radius: 20px;
   background: linear-gradient(#6453af78, #6453af7b), url(./airbnb.png);
   background-size: cover;
@@ -161,7 +183,7 @@ main {
   background: linear-gradient(#6453afc0, #6453afb7), url(./gmail_clone.png);
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 50px 80px;
+  margin: 80px 120px;
 }
 
 .ex_4{
@@ -182,7 +204,7 @@ main {
   background: linear-gradient(#6453af8f, #6453af93), url(./to_do.png);
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 50px 80px;
+  margin: 80px 120px;
 }
 
 .ex_5_text{
@@ -194,6 +216,16 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.code_example{
+  margin: 50px 100px;
+}
+
+.code_example pre{
+  line-height:5px;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 /* footer-part */

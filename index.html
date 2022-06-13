@@ -17,7 +17,7 @@
 
   <header>
     <nav>
-      <i class="fas fa-moon"></i>
+      <img class="nav_img" src="https://www.pngitem.com/pimgs/m/541-5410716_about-me-png-transparent-png.png" alt="">
       <ul>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -29,12 +29,12 @@
       </ul>
     </nav>
     <div class="header_text">
-      <img src="./woman (1).png" alt="user">
+      <img src="./woman.png" alt="user">
       <h2>Assalamu alaikum, I'm <span style="color: var(--pink)">Nurjakhon</span> :)</h2>
       <h1>Front-End Developer</h1>
       <div class="header_buttons">
-        <button class="email_btn">Email me</button>
-        <button>Download CV <i class="fa-solid fa-download"></i></button>
+        <button class="email_btn"><a href="mailto:nurjahonalisherova@gmail.com">Email me</a></button>
+        <button><a href="./download.pdf" target="_blank">Download CV</a> <i class="fa-solid fa-download"></i></button>
       </div>
       <i class="header_description"> <span style="color: var(--pink)">
           < </span>
@@ -53,45 +53,39 @@
     </div>
   </header>
   <main>
-    <div class="main_linear_bg">
+    <div class="main_linear_bg" id="skills">
       <div class="main_linear_div">
         <h3 style="color: var(--pink);">Why hire me</h3>
         <h1>Hard skills</h1>
         <div class="skills">
           <div>
-            <p><span>
-                < </span> HTML <span>/></span></p>
-            <p><span>
-                < </span> CSS <span>/></span></p>
-            <p><span>
-                < </span> Bootstrap <span>/></span></p>
+            <p><span><</span> HTML <span>/></span></p>
+            <p><span><</span> CSS <span>/></span></p>
+            <p><span><</span> Bootstrap <span>/></span></p>
+          </div>
+          <div>
+            <p><span><</span> Tailwind <span>/></span></p>
+            <p><span><</span> JavaScript <span>/></span></p>
+            <p><span><</span> React <span>/></span></p>
           </div>
           <div>
             <p><span>
-                < </span> Tailwind <span>/></span></p>
+                <</span> NodeJs <span>/></span></p>
             <p><span>
-                < </span> JavaScript <span>/></span></p>
+                <</span> Figma <span>/></span></p>
             <p><span>
-                < </span> React <span>/></span></p>
+                <</span> NodeJs <span>/></span></p>
           </div>
           <div>
             <p><span>
-                < </span> NodeJs <span>/></span></p>
+                <</span> Git, GitHub <span>/></span></p>
             <p><span>
-                < </span> Figma <span>/></span></p>
-            <p><span>
-                < </span> NodeJs <span>/></span></p>
-          </div>
-          <div>
-            <p><span>
-                < </span> Git, GitHub <span>/></span></p>
-            <p><span>
-                < </span> VSCode <span>/></span></p>
+                <</span> VSCode <span>/></span></p>
           </div>
         </div>
       </div>
     </div>
-    <div class="recent_projects">
+    <div class="recent_projects" id="projects">
       <h3 style="color: var(--pink);">Why I do?</h3>
       <h1 class="fw-5">Recent projects</h1>
       <div class="project_example">
@@ -148,7 +142,7 @@
         </div>
       </div>
     </div>
-    <div style="margin: 100px 0;" class="courses">
+    <div class="courses" id="education" style="margin: 100px 0;">
       <h4 style="color: var(--pink);">Where I gained knowledge?</h4>
       <h1 class="fw-5">Education and courses</h1>
       <div class="courses_list">
@@ -196,30 +190,29 @@
         </div>
       </div>
     </div>
-    <div class="code_example">
-      <div>
-        <code>
-          function solution(number){ <br>
-        <pre>                let sum = 0;</pre> <br>
-        for(let n = 1; n < number; n++){ <br>
-          if(n % 3 == 0 || n % 5 == 0){ <br>
-          <code>sum += n</code> <br>
-          } <br>
-          } <br>
-          return sum; <br>
-          } <br>
-        </code>
+    <div class="code-ex" id="code">
+      <h4 style="color: var(--pink);">My code style</h4>
+      <h1 class="fw-5">Code Example</h1>
+      <div class="code_example">
+        <pre> <span class="t-pink">function</span> <span class="t-green">solution</span> <span class="t-yellow">(number)</span>{ </pre>
+        <pre>   <span class="t-pink">let</span> <span class="t-green">sum</span> = 0;</pre>
+        <pre>   <span class="t-pink">for</span> (let n = 1; n< <span class="t-yellow">number</span> ; n++){</pre>
+        <pre>       <span class="t-pink">if</span> (n % 3 == 0 || n % 5 == 0){</pre>
+        <pre>          <span class="t-green">sum</span> += n</pre>
+        <pre>        }</pre>
+        <pre>    }</pre>
+        <pre>      <span class="t-pink">return</span> <span class="t-green">sum</span>;</pre> 
+        <pre> }</pre>            
       </div>
     </div>
   </main>
-  <footer>
+  <footer id="contact">
     <p>&copy; 2022 by Nurjakhon Alisherova</p>
     <p><a href="nurjahonalisherova@gmail.com"> Email</a></p>
     <p><a href="https://GitHub/Nurjahon1001"> Github</a></p>
     <p><a href="linkedin.com/in/nurjahon-alisherova-51815823a"> Linkedln</a></p>
     <div class="footer_img"><a href="https://rs.school/js/"><img src="./rs_school_js.svg" alt="rs_school_js"></a></div>
   </footer>
-  </div>
 </body>
 
 </html>
