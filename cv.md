@@ -42,7 +42,6 @@ function solution(number){
 - JavaScript full course on [Mohirdev.uz](https://mohirdev.uz) (in progress)
 - RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 
-
 ### Languages:
 - Uzbek - Native
 - English - Upper-intermediate
