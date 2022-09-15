@@ -36,7 +36,6 @@ function solution(number){
 } 
 ```
 
-
 ###Courses:
 - Frontend Development course in [iCode academy](https://www.facebook.com/icodeacademyuzb/?ref=py_c) (completed)
 - JavaScript full course on [Mohirdev.uz](https://mohirdev.uz) (in progress)
